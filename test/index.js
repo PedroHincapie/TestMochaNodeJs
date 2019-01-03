@@ -6,3 +6,11 @@ describe('Array', function() {
     });
   });
 });
+
+describe('Suma de numeros', function() {
+  describe('Suma', function() {
+    it('Suma exacta', function() {
+      assert.equal(3+3, 6);
+    });
+  });
+});
